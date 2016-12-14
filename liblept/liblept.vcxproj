@@ -206,7 +206,7 @@
       <PreprocessorDefinitions>COMPILER_MSVC;OPJ_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;NO_CONSOLE_IO;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CompileAs>CompileAsCpp</CompileAs>
       <AdditionalIncludeDirectories>$(SolutionDir)openjpeg;$(SolutionDir)zlib\include;$(SolutionDir)libpng;$(SolutionDir)libjpeg;$(SolutionDir)libtiff;$(SolutionDir)giflib;$(SolutionDir)libwebp\src;$(ProjectDir)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <StringPooling>true</StringPooling>
       <SDLCheck>false</SDLCheck>
